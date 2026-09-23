@@ -1,5 +1,7 @@
 # 🛡️ Linux SSH Threat Hunter & Log Analyzer
 
+
+
 A lightweight, defensive cybersecurity tool built to parse Red Hat/Rocky Linux system logs (`/var/log/secure`) to identify, aggregate, and alert on live SSH Brute Force attacks.
 
 ## 🚀 Features
@@ -31,7 +33,10 @@ IP ADDRESS           | FAILED ATTEMPTS
 ```
 
 ## ⚙️ Script Deployment & Execution
+
 To deploy and test this threat analysis engine inside a private Linux testing node:
+
+##option 1
 
 ```bash
 # Clone the repository asset down onto your node
@@ -47,4 +52,10 @@ sudo ./ssh_hunter.py
 
 ## 📄 Licensing
 Distributed under the protective terms of the MIT Open Source Framework License.
+
+##option 2
+
+### Quick Enterprise Installation:
+curl -sSL https://githubusercontent.com | sudo sh
+
 
